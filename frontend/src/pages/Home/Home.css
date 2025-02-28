@@ -1,0 +1,28 @@
+.home-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/home-page-header.webp);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.home-page header {
+    background-color: #e5e5f6; 
+    color: #e4f0f0; 
+    text-align: center;
+    padding: 50px 0;
+}
+
+.home-page h1 {
+    color: rgb(247, 232, 241); 
+}
+
+.home-page h2 {
+    color:  rgb(247, 232, 241);
+}
+.home-page p {
+    color: rgb(247, 232, 241);
+}
