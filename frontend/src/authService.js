@@ -3,9 +3,9 @@ import app from "./firebaseConfig";
 
 const auth = getAuth(app);
 
-export const signup = async (email,password) =>{
+export const signUp = async (email,password) =>{
     try{
-        const userCredential = await createUserWithEmailAndPassword(auth, EmailAuthCredential,password);
+        const userCredential = await createUserWithEmailAndPassword(auth, email,password);
         return userCredential.user;
     } catch (error) {
         throw error;
