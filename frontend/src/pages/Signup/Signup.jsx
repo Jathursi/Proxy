@@ -80,7 +80,7 @@ function Signup() {
       </form>
       {error && <p className="error-message text-red-800">{error}</p>}
 
-      <p>Already registered <span onClick={() => navigate('/login')} className='text-b2'>Login</span></p>
+      <p>Already registered <span onClick={() => navigate('login')} className='text-b2'>Login</span></p>
     </div>
   </div>
   )
