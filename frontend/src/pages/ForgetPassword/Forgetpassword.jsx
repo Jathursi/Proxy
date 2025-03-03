@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { sendPasswordResetEmail } from "firebase/auth"; 
 import { getAuth } from "firebase/auth";
-import "./Forgetpassword.css";
+// import "./Forgetpassword.css";
 import { Link } from "react-router-dom";
 
 function ForgotPassword() {
