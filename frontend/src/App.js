@@ -4,7 +4,8 @@ import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Contact from './pages/Contact/Contact';
 import Signup from './pages/Signup/Signup';
-import Dashboard from './pages/Dashboard/Dashboard';
+import Dashboard from './Components/Dashboard'
+// import Dashboard from './pages/Dashboard/Dashboard';
 import ForgetPassword from './pages/ForgetPassword/Forgetpassword';
 import Topbar from './Topbar';
 

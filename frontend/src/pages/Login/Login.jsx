@@ -26,7 +26,6 @@ function Login() {
     //   <div className='w-[40%] flex justify-center rounded-lg bg-white'> 
     //     <div className="w-full p-5">
     //       <h2 className='text-black text-center text-2xl text-bold mb-3'>Login</h2>
-    //       {error && <p className="error-message">{error}</p>}
     //       <div className="form-group">
     //         <label htmlFor="email">Email:</label>
     //         <input type = "email" placeholder ="Enter Email" value={email} onChange={(e) => setEmail(e.target.value)}
@@ -81,6 +80,7 @@ function Login() {
 
         <button type="submit" className="w-full bg-black text-white font-semibold py-2 px-4 rounded-xl ">Login</button>
       </form>
+      {error && <p className="error-message">{error}</p>}
 
       <div onClick={() => navigate("/signup")} className="flex gap-2 mb-5">
         <p>Don't have an account?</p> <span className='text-b2'>Sign Up</span>
