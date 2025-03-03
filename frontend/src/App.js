@@ -20,11 +20,9 @@ function App() {
             <Link to="/" className='navbar-brand d-flex align-items-center'>
              
               <span className='mx-2 text-light lh-1 fw-semibold'>
-                Squid
-                <br></br>
+                
                 Proxy
-                <br></br>
-                Control
+                
               </span>
             </Link>
           </Navbar.Brand>
