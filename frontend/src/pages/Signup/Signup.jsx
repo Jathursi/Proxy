@@ -78,6 +78,8 @@ function Signup() {
         </div> */}
         <button type='submit' className='w-full bg-black text-white font-semibold py-2 px-4 rounded-xl '>Sign Up</button>
       </form>
+      {error && <p className="error-message text-red-800">{error}</p>}
+
       <p>Already registered <span onClick={() => navigate('/login')} className='text-b2'>Login</span></p>
     </div>
   </div>
